@@ -1,0 +1,113 @@
+.home-banner {
+  width: 100%;
+  display: block;
+}
+.home-banner img {
+  width: 100%;
+  height: auto;
+}
+.feature-view {
+  padding: 80px 0px 40px 0px;
+}
+.sale-adv {
+  display: block;
+  height: 320px;
+  overflow: hidden;
+}
+.sale-content {
+  display: block;
+  margin-top: 30px;
+}
+.sale-content-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 30px;
+  color: #000;
+}
+.sale-content-description {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5em;
+}
+
+.short-new-slide {
+  width: 100%;
+  height: 100%;
+}
+.short-new-view {
+  display: block;
+  overflow: hidden;
+  height: 320px;
+}
+.short-new-view img {
+  height: 100%;
+  width: auto;
+  object-fit: cover;
+}
+.short-new-content {
+  display: block;
+  margin-top: 30px;
+}
+.shop-category {
+  padding: 40px 0px 30px 0px;
+}
+.shop-category-title {
+  text-align: center;
+}
+.shop-category-title h3 {
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 30px;
+}
+.shop-category-item {
+  overflow: hidden;
+  height: 270px;
+  margin-bottom: 10px;
+  padding: 0px 5px;
+}
+.item-bg {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.item-bg img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+}
+.item-cover {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.item-group {
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  width: 90%;
+  transform: translateX(-50%);
+}
+.item-group a {
+  color: white;
+  display: block;
+  text-align: center;
+}
+.item-group a:hover {
+  text-decoration: none;
+  color: #e67e22;
+}
+.item-group-title {
+  font-size: 23px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.item-group-sub {
+  font-size: 16px;
+  margin-bottom: 5px;
+  text-transform: capitalize;
+  font-weight: 600;
+}

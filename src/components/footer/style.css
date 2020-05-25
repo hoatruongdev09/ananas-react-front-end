@@ -1,0 +1,43 @@
+.footer {
+  background-color: #4c4c4c;
+  padding: 60px 0px 60px 0px;
+  overflow: hidden;
+}
+
+.sec-search {
+  text-align: center;
+}
+.btn-search-shop {
+  border-radius: 0px;
+  background-color: #f15e2c;
+  border: #f15e2c 1px solid;
+  color: white;
+  font-weight: bold;
+  width: 80%;
+  height: 40px;
+}
+.menu-title {
+  color: white;
+  font-weight: bold;
+  font-size: larger;
+}
+.menu-title:hover {
+  text-decoration: none;
+  color: white;
+}
+.sec-cont-menu ul {
+  padding-top: 15px;
+  list-style-type: none;
+  padding-left: 0;
+}
+.sec-cont-menu ul li {
+  padding-top: 5px;
+}
+.sec-cont-menu ul li a {
+  color: #bdc3c7;
+  font-weight: 400;
+}
+.sec-cont-menu ul li a:hover {
+  text-decoration: none;
+  color: #bdc3c7;
+}
