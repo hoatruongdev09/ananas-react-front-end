@@ -47,7 +47,9 @@ class ShopCategory extends Component {
           <a href="#" className="item-group-title">
             {props.title}
           </a>
-          <this.createSubCategoryTitles links={props.links} />
+          <a href="#" className="item-group-sub"></a>
+          <a href="#" className="item-group-sub"></a>
+          <a href="#" className="item-group-sub"></a>
         </div>
       </Col>
     );
