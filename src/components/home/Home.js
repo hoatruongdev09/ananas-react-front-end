@@ -5,10 +5,13 @@ import { Container, Row, Col } from "react-bootstrap";
 import "./style.css";
 
 import HomeBanner from "./images/banner.jpg";
+import BannerClothing from "./images/Banner-mobile_Clothing.jpg";
 
 import ShortNews from "./ShortNews.js";
 import SaleNews from "./SaleNews.js";
 import ShopCategory from "./ShopCategory.js";
+import BestSeller from "./BestSeller.js";
+import NewPaper from "./NewPaper.js";
 
 class Home extends Component {
   constructor() {
@@ -18,19 +21,22 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <this.homeBanner />
+        <this.homeBanner imgURL={HomeBanner} />
         <this.featureView />
         <ShopCategory />
+        <BestSeller />
+        <this.homeBanner imgURL={BannerClothing} />
+        <NewPaper />
       </div>
     );
   }
 
-  homeBanner() {
+  homeBanner(props) {
     return (
       <Container fluid hidden-sm="true" hidden-md="true" className="px-0">
         <div className="home-banner">
           <a href="#">
-            <img src={HomeBanner} />
+            <img src={props.imgURL} />
           </a>
         </div>
       </Container>
