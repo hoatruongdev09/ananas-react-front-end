@@ -29,7 +29,7 @@ class ShopCategory extends Component {
           />
           <this.Category
             title="dòng sản phẩm"
-            links={["new arrivals", "best seller", "sell-off"]}
+            links={["basas", "vintas", "urbas", "pattas"]}
             image={catalog}
           />
         </Row>
@@ -47,20 +47,16 @@ class ShopCategory extends Component {
           <a href="#" className="item-group-title">
             {props.title}
           </a>
-          <this.createSubCategoryTitles links={props.links} />
+          {props.links.map((link) => {
+            return (
+              <a href="#" className="item-group-sub">
+                {link}
+              </a>
+            );
+          })}
         </div>
       </Col>
     );
-  }
-  createSubCategoryTitles(props) {
-    let item = props.links.map((link) => {
-      return (
-        <a href="#" className="item-group-sub">
-          {link}
-        </a>
-      );
-    });
-    return item;
   }
 }
 
